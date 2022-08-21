@@ -1,5 +1,6 @@
 ﻿using System; // Подключенное пространство имен
 
+namespace FirstHomeWork.ConsoleApp // Объявление пространства имен для данного кода
 {
 	class Program // Объявление класса Program
 	{
@@ -12,7 +13,7 @@
 			Console.Write("Привет "); // Задание 2
 			Console.Write("Мир");
 			
-			Console.ReadKey();
+			Console.ReadLine();
 		}
 	}
 }
